@@ -1,0 +1,23 @@
+.registr{
+    z-index: 100;
+    background: #25252a;  /*#202020 - #502d57*/   /*#272727 - #502d57*/  /*#25252a - #7289d8*/
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: grid;
+
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 3.8fr 3fr 3.8fr;
+    
+    
+}
+
+.registrForm{
+    grid-column: 2;
+    grid-row: 2;
+    background: #7289d8;
+    border-radius: 8px;
+    /*border: 1px solid #646468;*/
+    z-index: 105;
+}
